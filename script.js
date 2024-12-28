@@ -18,7 +18,7 @@ const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'N
     });
 
     // Render sorted articles in the unordered list
-    const ul = document.getElementById("band");
+    const ul = document.getElementById("bands");
     sortedBands.forEach((band) => {
       const li = document.createElement("li");
       li.textContent = band;
